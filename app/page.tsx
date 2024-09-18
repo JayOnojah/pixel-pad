@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
-  return <div>PixelPad</div>;
+  return (
+    <>
+      <Button>Click Me</Button>
+    </>
+  );
 }
